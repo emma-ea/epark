@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txtCarCompany"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_new"
+    android:orientation="vertical"
+    tools:context=".ParkingActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parking Payment Receipt"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextViewReg"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/parkingTxtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/EmailAddressHeader"
+                android:textColor="@color/colorTextViewReg"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/parkingTxtEmailData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorTextViewReg"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/parkingTxtCarNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/CarPlateText"
+                android:textColor="@color/colorTextViewReg"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/parkingTxtCarNoData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorTextViewReg"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/parkingTxtCarName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/CarCompanyHeader"
+                android:textColor="@color/colorTextViewReg"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/parkingSpinCarCompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:entries="@array/carName"
+                android:textColor="@color/colorTextViewReg" />
+
+            <TextView
+                android:id="@+id/parkingTxtNoHours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/HoursHeader"
+                android:textColor="@color/colorTextViewReg"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/parkingEtNoHours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/colorTextViewReg"
+                android:ems="10"
+                android:hint="Enter Number of Hours"
+                android:inputType="number"
+                android:textColor="@color/colorTextViewReg"
+                android:textColorHint="@color/colorTextViewReg" />
+
+            <TextView
+                android:id="@+id/parkingTxtAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/AmountHeader"
+                android:textColor="@color/colorTextViewReg"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/parkingTxtAmountData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorTextViewReg"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/parkingTxtDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/DateAndTImeHeader"
+                android:textColor="@color/colorTextViewReg"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/parkingTxtDateData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorTextViewReg"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/parkingTxtPaymentMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/PaymentModeHeader"
+                android:textColor="@color/colorTextViewReg"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/parkingSpinPaymentMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:entries="@array/paymentMethod" />
+
+            <TextView
+                android:id="@+id/parkingTxtLot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/LotHeader"
+                android:textColor="@color/colorTextViewReg"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/parkingSpinLot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/parkingTxtSpot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/SpotHeader"
+                android:textColor="@color/colorTextViewReg"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/parkingSpinSpot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:entries="@array/spots" />
+
+            <Button
+                android:id="@+id/parkingBtnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                style="@style/loginButton"
+                android:text="@string/GoogleSubmitButton"
+                android:textColor="@android:color/white" />
+
+</LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

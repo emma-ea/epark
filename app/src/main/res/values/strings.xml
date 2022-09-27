@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">E-Park</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="booki">E-Park</string>
+    <string name="welcome_back">Welcome</string>
+    <string name="read_it_together">Find your parking space</string>
+    <string name="skip">Thank You</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forget_password">Forget Password.?</string>
+
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Dont have an account? Sign Up</string>
+    <string name="login_name_hint">Name</string>
+    <string name="title_activity_maps_acts">LOCATION</string>
+    <string name="login_mobile_number_hint">Mobile Number</string>
+    <string name="title_activity_user1">HOME</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+
+
+    <string name="mail_address">Mail Adress</string>
+    <string name="ok">OK</string>
+    <string name="already_a_member">Already a member?</string>
+    <string name="sign_in">SIGN IN!</string>
+    <string name="forget_your_password">Forget your password?</string>
+    <string name="reset_my_password">RESET MY PASSWORD</string>
+    <string name="create_profile">CREATE PROFILE</string>
+    <string name="name">Name:</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="vehicle">Vehicle:</string>
+    <string name="enter_your_surname">Enter your surname</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="e_mail">E-mail:</string>
+    <string name="email_address">Email Address</string>
+    <string name="profile">Profile</string>
+    <string name="dies">###</string>
+    <string name="log_out">Log Out</string>
+
+
+
+
+    <string name="UserProfileText">User Profile</string>
+    <string name="ButtonSaveCaption">Save</string>
+    <string name="NameText">Name</string>
+    <string name="EmailText">Email</string>
+    <string name="ContactText">Contact Number</string>
+    <string name="CarPlateText">Vehicle Number Plate</string>
+    <string name="CityText">City</string>
+    <string name="GoogleWelcomeText">Welcome</string>
+    <string name="GoogleEditText">To complete sign in, we require additional information</string>
+    <string name="GoogleSubmitButton">Submit</string>
+    <string name="LoginPageHeader">ParkMe</string>
+    <string name="SignUpOtherText">Dont have an Account</string>
+    <string name="EmailAddressHeader">Email Address</string>
+    <string name="CarCompanyHeader">Vehicle Type</string>
+    <string name="CarColorHeader">Car Color</string>
+    <string name="HoursHeader">No. of Hours</string>
+    <string name="AmountHeader">Amount</string>
+    <string name="DateAndTImeHeader">Date and Time</string>
+    <string name="PaymentModeHeader">Payment Mode</string>
+    <string name="LotHeader">Car Park</string>
+    <string name="SpotHeader">Spot Number</string>
+    <string name="ReceiptHeader">PARKING PAYMENT RECEIPT</string>
+    <string name="ReportHeader">PARKING REPORT</string>
+    <string name="ReportDetailHeader">DETAIL PARKING PAYMENT</string>
+    <string name="EditButtonHeader">Edit</string>
+    <string name="SupportHeader">E-Park 24/7 Support</string>
+    <string name="SupportSubHeader">KNUST CS DEPARTMENT</string>
+    <string name="SupportSubSubHeader">Kumasi</string>
+    <string name="CallButtonHeader">+233 55-002-2617</string>
+    <string name="SMSButtonHeader">+233 55-002-2617</string>
+    <string name="EmailButtonHeader">support@epark.gh</string>
+    <string name="maps_help">Click to go to maps</string>
+    <string name="park_reservation_header">Parking is Free.</string>
+    <string name="park_reservation_msg">Click the map icon on lower right corner of the screen for navigation</string>
+
+</resources>

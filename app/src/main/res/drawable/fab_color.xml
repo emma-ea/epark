@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="oval">
+            <gradient
+                android:angle="45"
+                android:centerX="35%"
+                android:startColor="#450055"
+                android:endColor="#8E2BE6"
+                android:type="linear"
+                />
+        </shape>
+    </item>
+
+    <item android:drawable="@drawable/ic_add">
+    </item>
+</layer-list>

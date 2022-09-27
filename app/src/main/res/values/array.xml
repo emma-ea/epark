@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="carName">
+        <item>Car</item>
+        <item>Bus</item>
+        <item>Motorcycle</item>
+        <item>Truck</item>
+        <item>Van</item>
+    </string-array>
+    <string-array name="paymentMethod">
+        <item>MTN Momo</item>
+        <item>Vodacash</item>
+        <item>ATmoney</item>
+        <item>Debit</item>
+        <item>Visa</item>
+        <item>Master card</item>
+    </string-array>
+    <string-array name="spots">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="carColor">
+        <item>Red</item>
+        <item>Black</item>
+        <item>White</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+    </string-array>
+</resources>

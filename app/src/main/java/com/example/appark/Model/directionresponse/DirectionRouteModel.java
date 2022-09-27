@@ -1,0 +1,44 @@
+package com.example.appark.Model.directionresponse;
+
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
+public class DirectionRouteModel {
+
+    @SerializedName("summary")
+    @Expose
+    private String summary;
+
+/*
+    @SerializedName("legs")
+    @Expose
+    private List<DirectionLegModel> legs;
+
+    @SerializedName("overview_polyline")
+    @Expose
+    private DirectionPolylineModel polylineModel;
+
+    public List<DirectionLegModel> getLegs() {
+        return legs;
+    }
+
+    public void setLegs(List<DirectionLegModel> legs) {
+        this.legs = legs;
+    }
+
+    public DirectionPolylineModel getPolylineModel() {
+        return polylineModel;
+    }
+
+    public void setPolylineModel(DirectionPolylineModel polylineModel) {
+        this.polylineModel = polylineModel;
+    }*/
+
+    public String getSummary() {
+        return summary;
+    }
+
+    public void setSummary(String summary) {
+        this.summary = summary;
+    }
+}

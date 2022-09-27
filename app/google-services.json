@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "933566926239",
+    "firebase_url": "https://appark-fb860.firebaseio.com",
+    "project_id": "appark-fb860",
+    "storage_bucket": "appark-fb860.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933566926239:android:7b19b8d0e33b408163c1aa",
+        "android_client_info": {
+          "package_name": "com.example.appark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933566926239-0b19mr045721tbmc70k5cilgenstgpuo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appark",
+            "certificate_hash": "d02ca58d429eecea33b29049de0c4f04fb510996"
+          }
+        },
+        {
+          "client_id": "933566926239-7vh0kbcgvkomfvupgsqjtbutjr1oc8t9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk54vxZBNN5Pg-1apW9Y7zcpQD8Isb0BI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933566926239-7vh0kbcgvkomfvupgsqjtbutjr1oc8t9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
